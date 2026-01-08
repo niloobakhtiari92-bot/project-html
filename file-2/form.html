@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>فرم ثبت نام</legend>
+    <form action="">
+        <table width="450" border="1" align="center">
+            <tr>
+                <td width="150" align="left">
+                    نام کاربری:
+                </td>
+                <td type="text" maxlength="10" placeholder="نام کاربری خود را وارد کنید">
+                </td>
+            </tr>
+              <tr>
+                <td width="150" align="left">
+                    رمز عبور:
+                </td>
+                <td type="password" maxlength="10" size="20" placeholder="رمز خود را وارد کنید">
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left">
+                    ایمیل:
+                </td>
+                <td type="email" size="20" placeholder="ایمیل خود را وارد کنی">
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left" valigne="top">
+                  ادرس:
+                </td>
+                <td>
+                    <textarea rows="10" cols="20" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left">
+                    جنسیت:
+                </td>
+                <td>
+                    <input type="radio" name="milad">مرد
+                    <input type="radio" name="milad">زن
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left">
+                    شهر:
+                </td>
+                <td>
+                    <select>
+                        <option selected>اصفهان</option>
+                        <option>ان</option>
+                        <option>تهران</option>
+                        <option>گیلان</option>
+                        <option>گرگان</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left" valign="top">
+                    استان:
+                </td>
+                <td>
+                    <select>
+                        <optgroup label="استان1">
+                            <option selected>اصفهان</option>
+                            <option>ان</option>
+                            <option>تهران</option>
+                            <option>گیلان</option>
+                            <option>گرگان</option>
+                        </optgroup>
+                        <optgroup label="استان2">
+                            <option selected>اصفهان</option>
+                            <option>ان</option>
+                            <option>تهران</option>
+                            <option>گیلان</option>
+                            <option>گرگان</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left" valign="top">
+                    <label>علاقه مندی ها:</label>
+                </td>
+                <td>
+                    <input type="checkbox" checked>موزیک
+                    <input type="checkbox">سفر
+                    <input type="checkbox">برنامه نویسی
+                    <input type="checkbox">نقاشی
+                </td>
+            </tr>
+            <tr>
+                <td width="150" align="left" valign="top">
+                    فایل:
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+               <td colspan="2" align="center">
+                    <input type="submit" value="ثبت نام">
+                    <input type="reset" value="پاک کردن">
+               </td> 
+            </tr>
+            <input type="hidden">
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
